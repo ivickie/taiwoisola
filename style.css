@@ -1,66 +1,108 @@
-* {
-  box-sizing: border-box;
+body{
+font-family: Arial;
+margin:0;
+background:#fff;
+color:#111;
 }
 
-body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  background: #F9FAFB;
-  color: #1F2933;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+header{
+background:#111;
+padding:15px 50px;
 }
 
-.container {
-  max-width: 800px;
-  margin: auto;
-  padding: 40px 20px;
-  text-align: center;
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
 }
 
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 42px;
-  margin-bottom: 10px;
+.logo{
+height:60px;
 }
 
-.tagline {
-  font-size: 15px;
-  color: #6B7280;
-  line-height: 1.6;
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
 }
 
-.divider {
-  width: 80px;
-  height: 2px;
-  background: #C9A24D;
-  margin: 30px auto;
+.hero{
+display:flex;
+padding:80px;
+align-items:center;
 }
 
-h2 {
-  font-size: 28px;
-  font-weight: 500;
-  margin-bottom: 10px;
+.hero-text{
+flex:1;
 }
 
-.description {
-  color: #4B5563;
-  font-size: 16px;
-  max-width: 600px;
-  margin: 0 auto 30px;
+.hero-text h1{
+font-size:48px;
 }
 
-.notify {
-  font-size: 14px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #C9A24D;
+.hero-img img{
+width:400px;
+border-radius:10px;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  font-size: 13px;
-  color: #9CA3AF;
+.btn{
+background:#D4AF37;
+color:white;
+padding:12px 24px;
+text-decoration:none;
+display:inline-block;
+margin-top:20px;
+}
+
+.mission{
+padding:80px;
+text-align:center;
+}
+
+.values{
+display:flex;
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+background:#f7f7f7;
+padding:30px;
+border-radius:8px;
+}
+
+.programs{
+padding:80px;
+background:#fafafa;
+text-align:center;
+}
+
+.program-grid{
+display:flex;
+gap:30px;
+margin:40px 0;
+}
+
+.program-card{
+padding:30px;
+background:white;
+border:1px solid #eee;
+}
+
+.testimonials{
+padding:80px;
+text-align:center;
+}
+
+footer{
+background:#111;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+.socials a{
+color:#D4AF37;
+margin:10px;
+text-decoration:none;
 }
